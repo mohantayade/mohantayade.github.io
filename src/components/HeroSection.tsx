@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+// import { Button } from "./ui/moving-border";
  
 const World = dynamic(() => import("../components/ui/globe").then((m) => m.World), {
   ssr: false,
@@ -422,6 +423,10 @@ function HeroSection() {
           <p className="text-center text-sm md:text-base font-normal text-neutral-700 dark:text-neutral-300 max-w-md mt-2 mx-auto bg-transparent ">
           Passionate MERN web developer dedicated to crafting seamless digital experiences. Specializing in MongoDB, Express.js, React, and Node.js
           </p>
+          {/* <div className="flex items-center justify-center">
+          <Button className="">hello</Button>
+          </div> */}
+          
         </motion.div>
 <div className="">
 

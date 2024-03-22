@@ -1,4 +1,7 @@
 import HeroSection from "@/components/HeroSection";
+import ProjectPage from "@/components/ProjectPage";
+import { Skill } from "@/components/Skill";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -7,7 +10,8 @@ export default function Home() {
       
       <div className="">
       <HeroSection/>
-      <div className="h-screen w-full bg-green-400"></div>
+      <ProjectPage/>
+      <Skill/>
       </div>
       
     </main>
