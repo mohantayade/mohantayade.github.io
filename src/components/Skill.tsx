@@ -2,16 +2,18 @@
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { HoverEffect } from "./ui/card-hover-effect";
 
-
+import { BackgroundBeams } from "./ui/background-beams";
 
 
 export function Skill() {
   return (
     <div className="sm:my-20 md:my-44">
+   <BackgroundBeams />
       <h2 className="text-center text-4xl font-bold">SKILL 🧠</h2>
 <div className="max-w-5xl mx-auto px-8 ">
      
 
+   
      <HoverEffect items={projects}  />
      
    </div>

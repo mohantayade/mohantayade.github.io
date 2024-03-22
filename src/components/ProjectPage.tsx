@@ -3,6 +3,7 @@ import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
 import { Button } from "./ui/moving-border";
+import Link from "next/link";
 function ProjectPage() {
   return (
     
@@ -80,7 +81,8 @@ function ProjectPage() {
         </p>
         <div className="mt-4 flex gap-4 justify-center">
         <button className="px-10 bg-gray-800 rounded-[30px]">GitHub</button>
-        <Button>Live View</Button>   
+        <Link href='https://google.com'><Button>Live View</Button></Link>
+           
         </div>
         
       </BackgroundGradient>
