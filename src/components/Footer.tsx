@@ -7,7 +7,7 @@ function Footer() {
       <div className='grid md:grid-cols-4 grid-cols-2 gap-2  my-10'>
        <div className='items-center justify-center flex gap-1'>
        <InstagramIcon/>
-        <Link href='https://www.instagram.com/mohan_tayade_/?hl=en' className='flex gap-1 text-lg items-center'>
+        <Link target="_blank" href='https://www.instagram.com/mohan_tayade_/?hl=en' className='flex gap-1 text-lg items-center'>
         Instagram
          </Link>
        </div>
@@ -16,7 +16,7 @@ function Footer() {
 
         <div className='items-center justify-center flex gap-1'>
         <Linkedin/>
-        <Link href='https://www.linkedin.com/in/mohan-tayade/' className='flex gap-1 text-lg items-center'>
+        <Link target="_blank" href='https://www.linkedin.com/in/mohan-tayade/' className='flex gap-1 text-lg items-center'>
        linkedin
          </Link>
         </div>
@@ -25,14 +25,14 @@ function Footer() {
 
          <div className='items-center justify-center flex gap-1'>
          <GithubIcon/>
-        <Link href='https://github.com/mohantayade'  className='flex gap-1 text-lg items-center'>
+        <Link target="_blank" href='https://github.com/mohantayade'  className='flex gap-1 text-lg items-center'>
         GitHub
          </Link>
          </div>
 
 <div className='items-center justify-center flex gap-1'>
 <TwitchIcon/>
-        <Link href='https://twitter.com/@mohandevcode'  className='flex gap-1 text-lg items-center'>
+        <Link target="_blank" href='https://twitter.com/@mohandevcode'  className='flex gap-1 text-lg items-center'>
          Twitter
          </Link>
 </div>

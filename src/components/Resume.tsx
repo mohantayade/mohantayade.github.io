@@ -7,7 +7,7 @@ import Link from "next/link";
 export function Resume() {
   return (
     
-          <div className="h-[40rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+          <div className="h-[40rem] w-full rounded-md  relative flex flex-col items-center justify-center antialiased" >
       <div className="max-w-2xl mx-auto p-4">
         <h1 className="relative z-10 text-lg md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
         Explore the journey of a web developer.
@@ -20,7 +20,7 @@ export function Resume() {
         
       </div>
       <div className="text-center mt-3">
-        <Link href='https://google.com' className="z-40"><Button className="text-base ">Download Resume</Button></Link>
+        <Link target="_blank" href='https://drive.google.com/file/d/1SqaWq798m3Fjfj20zdHNTIl6EI_682tH/view' className="z-40"><Button className="text-base ">Download Resume</Button></Link>
         </div>
      
     </div>

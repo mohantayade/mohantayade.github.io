@@ -23,17 +23,17 @@ function ProjectPage() {
           className="object-contain rounded-lg "
         />
         <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-          E-com Project
+          EComBuyIndia
         </p>
  
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          The Air Jordan 4 Retro Reimagined Bred will release on Saturday,
-          February 17, 2024. Your best opportunity to get these right now is by
-          entering raffles and waiting for the official releases.
+        Discover the ultimate online shopping destination tailored for Indian consumers. With Next.js for speed, Sanity for seamless content management, and Stripe for secure transactions, EcomBuyIndia offers a curated catalog.
         </p>
         <div className="mt-4 flex gap-4 justify-center">
-        <button className="px-10 bg-gray-800 rounded-[30px]">GitHub</button>
-        <Button>Live View</Button>   
+        <Link  target="_blank" className="px-10 py-5  bg-gray-800 rounded-[30px]" href="https://github.com/mohantayade/ecombuy">
+        GitHub</Link>
+        <Link target="_blank" href="https://ecombuyindia.vercel.app/">
+        <Button>Live View</Button></Link>   
         </div>
         
       </BackgroundGradient>

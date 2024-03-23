@@ -57,10 +57,10 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Contact">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink className="text-white" href="/email">Email</HoveredLink>
-            <HoveredLink className="text-white" href="/github">GitHub</HoveredLink>
-            <HoveredLink className="text-white" href="/linkdin">Linkdin</HoveredLink>
-            <HoveredLink className="text-white" href="/instagram">instagram</HoveredLink>
+            <HoveredLink className="text-white" href="https://twitter.com/@mohandevcode">Twitter</HoveredLink>
+            <HoveredLink className="text-white" href="https://github.com/mohantayade">GitHub</HoveredLink>
+            <HoveredLink className="text-white" href="https://www.linkedin.com/in/mohan-tayade/">Linkdin</HoveredLink>
+            <HoveredLink className="text-white" href="https://www.instagram.com/mohan_tayade_/?hl=en">instagram</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
