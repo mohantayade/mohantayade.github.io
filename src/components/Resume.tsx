@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 // import { BackgroundBeams } from "./ui/background-beams";
-import { WavyBackground } from "./ui/wavy-background";
+// import { WavyBackground } from "./ui/wavy-background";
 import { Button } from "./ui/moving-border";
 import Link from "next/link";
 export function Resume() {

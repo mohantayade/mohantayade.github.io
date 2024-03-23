@@ -39,7 +39,7 @@ function Footer() {
          
       </div>
       <div>
-      <h3 className='text-center py-5'>Handcrafted by me ⓒ Mohan Tayade</h3>
+      <h3 className='text-center py-5 text-sm md:text-base'>Handcrafted by me ⓒ Mohan Tayade</h3>
       </div>
       
     </div>

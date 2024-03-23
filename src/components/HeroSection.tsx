@@ -399,7 +399,7 @@ function HeroSection() {
   return (
     // <div className="h-screen md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       
-      <div className="flex flex-row items-center justify-center py-52 h-screen md:h-auto dark:bg-black bg-white relative w-full">
+      <div className="flex flex-row items-center justify-center py-52 h-screen md:h-auto dark:bg-black bg-white relative w-full ">
 
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-screen md:h-[40rem] px-4">
         
