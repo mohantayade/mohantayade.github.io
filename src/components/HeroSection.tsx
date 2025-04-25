@@ -419,12 +419,12 @@ function HeroSection() {
           }}
           className="div pt-52 sm:pt-0"
         >
-          <h2 className="text-center text-4xl sm:text-7xl md:text-8xl lg:text-9xl  font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-600  dark:from-neutral-50 dark:to-neutral-400 z-50 p-2">
+          <h2 className="text-center text-5xl sm:text-5xl md:text-7xl lg:text-9xl  font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-600  dark:from-neutral-50 dark:to-neutral-400 z-50 p-2">
            MohanCodeDev
           </h2>
           
-          <div className="text-center mt-3">
-        <Link target="_blank" href='https://www.youtube.com/@MohanCodeDev' className="z-40 text-2xl">SUBSCRIBE TO <Button className="text-base "><img className="px-2" src="https://freepnglogo.com/images/all_img/1701508998white-youtube-logo-png.png" alt="youtube" /></Button> CHANNEL</Link>
+          <div className="text-center mt-3 z-50">
+        <Link target="_blank" href='https://www.youtube.com/@MohanCodeDev' className="z-40 text-2xl flex flex-col items-center gap-1 md:flex-row justify-center">SUBSCRIBE TO <Button className="text-base "><img className="px-2" src="https://freepnglogo.com/images/all_img/1701508998white-youtube-logo-png.png" alt="youtube" /></Button> CHANNEL</Link>
         </div>
           {/* <div className="flex items-center justify-center">
           <Button className="">hello</Button>
