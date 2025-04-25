@@ -93,9 +93,9 @@ export const ProductItem = ({
       <Image
         src={src}
         width={140}
-        height={70}
+        height={80}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className=" rounded-md shadow-2xl"
       />
       <div>
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">

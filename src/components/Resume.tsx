@@ -13,14 +13,14 @@ export function Resume() {
         Explore the journey of a web developer.
         </h1>
         
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-        Empowering the web with innovative solutions.
-        
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-lg text-center relative z-10">
+        SUBSCRIBE TO OUR CHANNEL
         </p>
         
       </div>
       <div className="text-center mt-3">
-        <Link target="_blank" href='https://drive.google.com/file/d/1SqaWq798m3Fjfj20zdHNTIl6EI_682tH/view' className="z-40"><Button className="text-base ">Download Resume</Button></Link>
+        <Link target="_blank" href='https://www.youtube.com/@MohanCodeDev' className="z-40">
+        <Button className="text-base "><img className="px-2" src="https://freepnglogo.com/images/all_img/1701508998white-youtube-logo-png.png" alt="youtube" /></Button></Link>
         </div>
      
     </div>

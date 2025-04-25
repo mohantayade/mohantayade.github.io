@@ -15,7 +15,7 @@ export default function Home() {
 
       <HeroSection/>
        <div className="main"></div>
-      <ProjectPage/>
+      {/* <ProjectPage/> */}
       <Skill/>
       <Resume/>
       <Footer/>
