@@ -419,7 +419,7 @@ function HeroSection() {
           }}
           className="div pt-52 sm:pt-0"
         >
-          <h2 className="text-center text-5xl sm:text-5xl md:text-7xl lg:text-9xl  font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-600  dark:from-neutral-50 dark:to-neutral-400 z-50 p-2">
+          <h2 className="text-center text-4xl sm:text-4xl md:text-7xl lg:text-9xl  font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-600  dark:from-neutral-50 dark:to-neutral-400 z-50 p-2">
            MohanCodeDev
           </h2>
           
